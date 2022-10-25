@@ -1,8 +1,8 @@
 import express from 'express';
-var indexController = express.Router();
+const indexController = express.Router();
 
 /* GET home page. */
-indexController.get('/', function(req, res, next) {
+indexController.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
